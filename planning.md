@@ -40,11 +40,17 @@ The domain I chose was Rate my Professor. This knowledge is valuable because the
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 **Chunk size:**
-     350 tokens
+
+350 tokens
+
 **Overlap:**
-     25 tokens   
+
+25 tokens   
+
 **Reasoning:**
+
 Since each review is seperate from each other, the overlap doesn't have to be as drastic since it will be searching for keywords only. Recursive chunking strategy is probably best for this document type.
+
 ---
 
 ## Retrieval Approach
@@ -56,11 +62,17 @@ Since each review is seperate from each other, the overlap doesn't have to be as
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
+
 all-MiniLM-L6-v2
+
 **Top-k:**
+
 3-5 should work fine for this project, will most likely end up using 5.
+
 **Production tradeoff reflection:**
+
 If cost was not a constraint I would most likely use OpenAI since it would provide more accurate responses.
+
 ---
 
 ## Evaluation Plan
