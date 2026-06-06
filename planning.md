@@ -39,13 +39,12 @@ The domain I chose was Rate my Professor. This knowledge is valuable because the
      State your chunk size (in tokens or characters), overlap size, and explain why those
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
-Recursive chunking strategy 
 **Chunk size:**
-300-400
+     350 tokens
 **Overlap:**
-25   
+     25 tokens   
 **Reasoning:**
-Since each review is seperate from each other, the overlap doesn't have to be as drastic since it will be searching for keywords only.
+Since each review is seperate from each other, the overlap doesn't have to be as drastic since it will be searching for keywords only. Recursive chunking strategy is probably best for this document type.
 ---
 
 ## Retrieval Approach
