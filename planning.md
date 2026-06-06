@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-
+The domain I chose was Rate my Professor. This knowledge is valuable because these are real reviews that students who have taken the class have submitted. 
 ---
 
 ## Documents
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Rate my Professor | Lina Kloub RMP and her ratings | https://www.ratemyprofessors.com/professor/2754387|
+| 2 |Rate my Professor | Olga Glebova RMP and her ratings | https://www.ratemyprofessors.com/professor/2963544|
+| 3 |Rate my Professor | Swamy Narayan Jignaas Pattipati RMP and his ratings | https://www.ratemyprofessors.com/professor/3044671|
+| 4 |Rate my Professor | Justin Furuness RMP and his ratings| https://www.ratemyprofessors.com/professor/3127655|
+| 5 |Rate my Professor | David Strimple RMP and his ratings| https://www.ratemyprofessors.com/professor/2872422|
+| 6 |Rate my Professor | Derek Aguiar RMP and his ratings| https://www.ratemyprofessors.com/professor/2460362|
+| 7 |Rate my Professor | Laurent Michel RMP and ratings| https://www.ratemyprofessors.com/professor/1135923|
+| 8 |Rate my Professor | Zhijie 'Jerry Shi RMP and ratings| https://www.ratemyprofessors.com/professor/1282131|
+| 9 |Rate my Professor | Yufeng WU RMP and ratings| https://www.ratemyprofessors.com/professor/1756272|
+| 10 |Rate my Professor| Jonathan Clark RMP and ratings| https://www.ratemyprofessors.com/professor/2898389|
 
 ---
 
@@ -39,13 +39,13 @@
      State your chunk size (in tokens or characters), overlap size, and explain why those
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
-
+Recursive chunking strategy 
 **Chunk size:**
-
+300-400
 **Overlap:**
-
+25   
 **Reasoning:**
-
+Since each review is seperate from each other, the overlap doesn't have to be as drastic since it will be searching for keywords only.
 ---
 
 ## Retrieval Approach
@@ -57,11 +57,11 @@
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
-
+all-MiniLM-L6-v2
 **Top-k:**
-
+3-5 should work fine for this project, will most likely end up using 5.
 **Production tradeoff reflection:**
-
+If cost was not a constraint I would most likely use OpenAI since it would provide more accurate responses.
 ---
 
 ## Evaluation Plan
@@ -73,11 +73,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Is Swamy a good lecturer and does he make class engaging?| Yes, he is a great lecturer who makes class engaging and challenging for students.|
+| 2 | Does Lina Kloub prepare students for exams and are they difficult?| Lina Kloub's exams tend to be a little difficult but most of the work on the exams are similar to those on her homework assignments and lectures.|
+| 3 | Does Olga Glbova give a lot of homework throughout the week?| Yes, She assigns Zybooks every couple days and these can take a long time to complete.|
+| 4 | Does Justin Furuness have lots of office hours for help when needed?| Yes, He is very acessible outside of class and tries to help  of his students to the best of his abilities.|
+| 5 | Is David Strimple a tough grader?| Yes, He is an extremely tough grader that assigns lots of homework.|
 
 ---
 
@@ -87,9 +87,9 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Conflicting reviews could make the output change. If 5 people say it was great but 4 said it was horrible there needs to be some type of middle ground answer.
 
-2.
+2. If any of the reviews contain slang or different vocabulary used then the ones used in the question prompt, this could cause an unexpected output or confusion.
 
 ---
 
@@ -116,7 +116,8 @@
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-
+Claude: 
 **Milestone 4 — Embedding and retrieval:**
-
+Claude: 
 **Milestone 5 — Generation and interface:**
+Claude: 
