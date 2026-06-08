@@ -10,7 +10,9 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+
 The domain I chose was Rate my Professor. This knowledge is valuable because these are real reviews that students who have taken the class have submitted. 
+
 ---
 
 ## Documents
@@ -41,7 +43,7 @@ The domain I chose was Rate my Professor. This knowledge is valuable because the
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 **Chunk size:**
 
-350 tokens
+250 tokens
 
 **Overlap:**
 
@@ -112,6 +114,14 @@ If cost was not a constraint I would most likely use OpenAI since it would provi
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+```mermaid
+flowchart LR 
+A["Document Ingestion<br/>Rate my Professor reviews, where each professor becomes one document"]
+--> B["Chunking<br/>Recursive Chunking<br/>Chunk size - 250 tokens<br/>Overlap - 20 tokens "]
+--> C["Embedding + Vecor Store<br/>Embeded each chunk using all-MiniLM-L6-v2 store in ChromaDB"]
+--> D["Retrieval<br/>Query ChromaDB for top-k=5 most relevant chunks"]
+--> E["Generation<br/> Pass retrieved chunks to an LLM(Groq)"]
+```
 ---
 
 ## AI Tool Plan
