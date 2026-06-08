@@ -43,15 +43,15 @@ The domain I chose was Rate my Professor. This knowledge is valuable because the
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 **Chunk size:**
 
-250 tokens
+128 tokens
 
 **Overlap:**
 
-25 tokens   
+20 tokens
 
 **Reasoning:**
 
-Since each review is seperate from each other, the overlap doesn't have to be as drastic since it will be searching for keywords only. Recursive chunking strategy is probably best for this document type.
+Each review is short (~60-80 tokens) and self-contained, so I size chunks at 128 tokens to keep roughly one review per chunk. This gives each embedding a single, focused opinion instead of a blurry vector averaging 3 reviews on different topics — which retrieves more precisely for my professor-specific test questions. Because reviews are independent, overlap can stay small (20 tokens) just to avoid splitting a sentence across a boundary. A recursive chunking strategy fits best: it splits on review boundaries (blank lines) first, then sentences, then words, so chunks rarely break mid-thought. Token counts are measured with the same all-MiniLM-L6-v2 tokenizer used for embedding, so "128 tokens" matches what the model sees. Final chunk count: ~100 chunks across the 10 professor documents.
 
 ---
 
@@ -117,7 +117,7 @@ If cost was not a constraint I would most likely use OpenAI since it would provi
 ```mermaid
 flowchart LR 
 A["Document Ingestion<br/>Rate my Professor reviews, where each professor becomes one document"]
---> B["Chunking<br/>Recursive Chunking<br/>Chunk size - 250 tokens<br/>Overlap - 20 tokens "]
+--> B["Chunking<br/>Recursive Chunking<br/>Chunk size - 128 tokens<br/>Overlap - 20 tokens "]
 --> C["Embedding + Vecor Store<br/>Embeded each chunk using all-MiniLM-L6-v2 store in ChromaDB"]
 --> D["Retrieval<br/>Query ChromaDB for top-k=5 most relevant chunks"]
 --> E["Generation<br/> Pass retrieved chunks to an LLM(Groq)"]
@@ -137,8 +137,17 @@ A["Document Ingestion<br/>Rate my Professor reviews, where each professor become
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-Claude: 
+
+Claude:  
+
+I want to implement a recursive chunking strategy to chunk the reviews for each professor. Each professor has their own text file in the documents folder that contains their id, name, link, and their 10 reviews. Using my pipeline diagram on lines 117-124 of planning.md, create a script that loads my documents, cleans them, and produces chunks matching the plan. Code this in Ingestion.py.
+
 **Milestone 4 — Embedding and retrieval:**
+
 Claude: 
+
+Using the pipeline outline in planning.md I want you to generate my embedding and retreval code in Embedding.py. I want you to implement the loading of the chunks from ingestion.py, embedding with all-MiniLm-L6-v2, and storing in ChromaDB with source metdadata. There should be a retreval function as well. Can you explain each step either at the end or while you are completing it so I can fully understand how this process works.
+
 **Milestone 5 — Generation and interface:**
+
 Claude: 

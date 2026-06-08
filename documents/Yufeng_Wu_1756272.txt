@@ -1,0 +1,82 @@
+PROFESSOR: Yufeng Wu
+RMP_ID: 1756272
+URL: https://www.ratemyprofessors.com/professor/1756272 
+
+=== OVERALL ===
+Overall rating: 2/5
+Would take again (%): 27%
+Level of difficulty (1-5): 4.2
+Top tags: Lots of Homework, Tough grader, Get ready to read
+
+=== REVIEWS ===
+
+Quality 1.0 | Difficulty 5.0 | CSE3000
+Its actually absurd how strict he is with grading for a 1 credit class. 
+I'm getting grades in the range of 60s-90s for a paper that is supposed 
+to be opinion based. For the final discussion he cut points out of the grade 
+because we were missing stuff, but he also cut us off early for time purposes 
+when we were getting to that part of the project.
+
+Quality 1.0 | Difficulty 3.0 | CSE3000
+I'd avoid this professor if possible. The weekly readings total up to over 
+100 pages with a one-page reflection paper every week. Vague instructions 
+for group project, and during presentations he was unhelpful and even rude 
+when students had technical issues. The attendance policy is also extreme 
+missing three classes means you fail the course.
+
+Quality 1.0 | Difficulty 5.0 | CSE3000
+3 credits worth of work for a 1 credit class. Not only does he assign 
+weekly one page papers (all mandatory) with incredibly vague guidelines, 
+but he then grades them based entirely on vibes, with no rubric. On top 
+of that, the same attendance policy as a lab course plus weekly online 
+discussion made this class an absolute nightmare to have taken.
+
+Quality 4.0 | Difficulty 4.0 | CSE2500
+Not the worst professor but not my first choice. 
+He definitely wants us to learn but he's rough with his 
+exam problems and material taught. If you put time in and 
+ask questions you'll for sure do well, especially with the 
+extra credit and partial grading. His office hours were pretty late so that's a downside.
+
+Quality 1.0 | Difficulty 5.0 | CSE3150
+Lowkey hates his students. Assigns a LOT of DIFFICULT work, will hide 
+tests in the autograder to trip you up. Low quality lectures. Does not 
+want to curve when the exam average was 51. Will teach new content 10 minutes 
+before the exam. Will not finish attendance assignments in class so you have 
+to do them yourself. Obsessed with catching cheaters.
+
+Quality 1.0 | Difficulty 5.0 | CSE3150
+Probably the worst CS professor at UConn. Extremely difficult exams with no curve. 
+The average was a failing grade and there's no curve, he refuses to take fault and 
+blames the class for not trying. This man cannot speak English, or any language 
+honestly has a really bad stutter and a ton of homework. Egotistical with no social awareness.
+
+Quality 1.0 | Difficulty 5.0 | CSE3500
+He was a bit hard to understand, respectfully, because of his thick accent. 
+There was one occasion where I wasn't understanding him and went to him after class. 
+He was surprised I didn't understand a certain concept and basically kicked me out 
+refusing to clarify anything else. I would say he ranks in the top 3 of the worst 
+professors I've had.
+
+Quality 2.0 | Difficulty 4.0 | CSE3150
+Tough class. The prof has videos of another prof's lectures and told us to watch 
+those instead. The coding HWs are vague and need more clarification. Final project 
+was a mess in terms of delivery and deadlines, autograders not working. His 
+lecturing skills are not the best, it is better to watch O.O. design pattern 
+videos from YT instead of him.
+
+Quality 4.0 | Difficulty 3.0 | CSE3150
+I would take most of these negative reviews with a grain of salt. 
+Good professor and a fair grader. There are weekly assignments that 
+teach you a lot. No final exam; final project was relatively 
+straightforward - you will need to dedicate a solid few hours to it. 
+You'll succeed if you focus on learning, not just completing assignments.
+
+Quality 1.0 | Difficulty 5.0 | CSE3150
+Uses other prof lectures outside of class, lots of homework, unclear directions, 
+lots of out of pocket comments. Lack of communication with TAs 
+(hard to get any answers, a TA mentioned they only had one meeting the entire semester). 
+Tried to make an entire new project with dates overlapping with exam, 
+refuses to take advice and input from students.
+
+

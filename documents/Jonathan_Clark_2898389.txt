@@ -1,0 +1,81 @@
+PROFESSOR: Jonathan Clark
+RMP_ID: 2898389
+URL: https://www.ratemyprofessors.com/professor/2898389
+
+=== OVERALL ===
+Overall rating: 4.7/5
+Would take again (%): 93%
+Level of difficulty (1-5): 2.6
+Top tags: Amazing lectures, Gives Good Feedback, Caring
+
+=== REVIEWS ===
+
+Quality 5.0 | Difficulty 1.0 | CSE2102
+I didn't have him for CSE 2102 but his slides were used for my class. 
+His materials prepared me beyond what I could have asked for in my 
+Software Engineering Internship. Pay attention in his class and it 
+WILL benefit you. Legend.
+
+Quality 5.0 | Difficulty 2.0 | CSE2102
+10/10 would highly recommend. If you are looking for a class to help 
+kickstart your software engineering journey, take CSE 2102 with Professor Clark. 
+He taught us many of the tools and techniques used in the real world. 
+My favorite CSE class at UConn so far.
+
+Quality 5.0 | Difficulty 3.0 | CSE2102
+He is a very good professor who cares a lot about the students. 
+Group project was the main part of the class which was good because 
+you learn a lot from it. One thing I would say is that the lectures 
+can be very long so you can lose focus very easily, but other than that the class was good.
+
+Quality 5.0 | Difficulty 3.0 | CSE2102
+Great and very understanding professor. This course is most applicable 
+in the 'real world'. While the group projects emphasize teamwork, 
+you are graded as an individual, and how much work you do. The group 
+project was difficult at times but taught me a ton about software engineering.
+
+Quality 5.0 | Difficulty 2.0 | CSE2102
+Clark is a real software engineer and has real world experience. 
+His class is very informative and gives a lot of insight on the field. 
+He truly cares about his students, will stay late after class to help 
+and is very accessible on Discord. He's one of the most respectable and 
+kind professors at UCONN. Highly recommend Clark, would take again.
+
+Quality 5.0 | Difficulty 3.0 | CSE2102
+Participation quizzes every lecture, 3 hws, 2 exams, 
+labs graded on participation. Throughout the semester, 
+you work towards a final project. Everyone is kept on the 
+same page with graded weekly milestones. Learning expectations 
+are simple. Learn in lab, and demonstrate in next milestone/HW. 
+Very available, stays late if needed.
+
+Quality 5.0 | Difficulty 3.0 | CSE4095
+AWS Cloud Computing special topics course. Lectures were very 
+applicable to industry work and connected back to current topics 
+from data breaches to web development. Each lecture usually had a 
+demo which was pretty helpful when it came to completing the homework. 
+Lots of hands-on work.
+
+Quality 5.0 | Difficulty 3.0 | CSE2102
+Unlike other computer science teachers, this guy is a *real* software engineer 
+who is doing *real* software engineering *right now.* This means his lectures are 
+extremely relevant, and even if some may complain that they're boring, I promise 
+that they will come in handy if you ever get a job in the tech space. Plus, he's 
+just a great guy overall!
+
+Quality 5.0 | Difficulty 3.0 | CSE2102
+Greatest thing to happen to UConn CSE department. 
+Jon is a gem and is seriously passionate about teaching his students. 
+Both the class and group project were also super fun. I feel like 
+I should have definitely worked harder though because the curve was 
+very merciful and had I focused more it would have been an easy A.
+
+Quality 5.0 | Difficulty 2.0 | CSE2102
+The 2102 course rework is incredibly useful and gives great insight 
+into the actual industry. Majority of your grade is based on the group 
+project and as long as you work with your group and know the ins and outs
+of the project, you'll do fine in the course. Lecture was very boring but 
+key terms at end of each are what was important for exams.
+
+
+

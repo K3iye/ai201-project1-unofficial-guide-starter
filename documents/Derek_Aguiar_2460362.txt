@@ -1,0 +1,82 @@
+PROFESSOR: Derek Aguiar
+RMP_ID: 2460362
+URL: https://www.ratemyprofessors.com/professor/2460362
+
+=== OVERALL ===
+Overall rating: 3.5/5
+Would take again (%): 59%
+Level of difficulty (1-5): 4.1
+Top tags: Amazing lectures, Clear grading criteria, Hilarious
+
+=== REVIEWS ===
+
+Quality 5.0 | Difficulty 4.0 | CSE3500
+People say Aguiar's section is harder, but his grading is very forgiving. 
+Homework is mostly completion if you follow the guidelines. 
+On exams are as long as you follow the general formula, you'll get most points even 
+if your solution is wrong. The final lets you recover earlier exam points. 
+Attend lecture and do the homework and you'll be fine.
+
+Quality 5.0 | Difficulty 3.0 | CSE3500
+Derek is very approachable and easy to talk to! His lectures can sometimes 
+move too quickly or be unclear, but he records them and makes them available. 
+He's also a lenient grader and fair, I got some problems completely wrong on 
+the first exam and still got over half credit for them. If you're proactive 
+and put in effort you'll do well.
+
+Quality 5.0 | Difficulty 5.0 | CSE3500
+I would say Derek is a nice professor, but don't take 3500 with him, 
+his section is way harder than other, but Derek cares his students 
+and he is always there to help you, but the content is too hard and 
+the weekly homework is absolutely overwhelming, it probably took me 
+for a WHOLE WEEK to finish every time. Overall, nice professor, tough course.
+
+Quality 5.0 | Difficulty 4.0 | CSE3500
+Although Derek Aguiar's sections of this class are harder and different from 
+other professors, It is for your benefit. He is very enthusiastic with his 
+teachings and genuinely wants to help you learn to prepare for your future. 
+The homework's he gives are the best preparation for the exams and he is a generous grader.
+
+Quality 3.0 | Difficulty 5.0 | CSE3500
+If you put in a TON of work, you will learn a lot from this course, 
+and it will be useful. However, it doesn't make sense how taking 
+this class with Aguiar compared to other professors is so much more 
+difficult. He is passionate and wants everyone to learn, yes. 
+But this could almost be a separate course entirely compared to the other sections.
+
+Quality 5.0 | Difficulty 3.0 | CSE3500
+I never actually wrote one of these before but I just had to for Derek. 
+3500 is just a hard course in general, the people rating him low aren't 
+doing him justice just because they had a hard time. Derek teaches with 
+passion and is a hilarious guy. Derek will tell you what category of problems 
+are going to be on exams. Amazing Professor.
+
+Quality 5.0 | Difficulty 4.0 | CSE1010
+The homework in the latter half of the course was a bit difficult for me, 
+but that is only because I've never taken CS before (and thus, it takes a 
+bit of work to learn, just like any other class). Everything in the first 
+half of the semester was really easy. TONS of extra credit opportunities 
+during lab times -- take advantage of it!
+
+Quality 3.0 | Difficulty 5.0 | CSE3500
+3500 with Aguiar is one of the hardest courses in the undergrad curriculum. 
+He even says that his section is harder than any other sections. But by the 
+time your done you will be an algorithms god. He is also very available in 
+office hours (which you will need) and the final makes up for the midterms.
+DON'T TAKE THIS CONCURRENTLY WITH 3100 OR 3666
+
+Quality 2.0 | Difficulty 5.0 | CSE3500
+The homework is insanely hard and the exams are as well. 
+he does not curve the class but has a different system at the 
+end but that sucks because It barely brings your grade up or 
+might not even. he also made a failing grade below a 50 which 
+is the only good thing hes done. also hes easy to reach out too 
+and sometimes is understanding.
+
+Quality 5.0 | Difficulty 4.0 | CSE3500
+Derek is the best! 3500 is just a hard class, but I have never 
+seen a professor care so much about student's success. 
+He really wants you to understand the content and do well. 
+Derek grades very fairly, gives a ton of partial credit, answers 
+emails and discord quickly (literally at like 1a.m. sometimes). 
+One of the best professor's I've had here.
