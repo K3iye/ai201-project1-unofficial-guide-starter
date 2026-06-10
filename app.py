@@ -75,7 +75,7 @@ def build_ui():
         gr.Examples(
             examples=EXAMPLE_QUESTIONS,
             inputs=[professor, question],
-            label="Evaluation questions (from planning.md)",
+            label="Example questions",
         )
 
         generate_btn.click(answer_question, inputs=[professor, question], outputs=[answer, sources])
