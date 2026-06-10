@@ -43,11 +43,11 @@ The domain I chose was Rate my Professor. This knowledge is valuable because the
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 **Chunk size:**
 
-128 tokens
+250 tokens
 
 **Overlap:**
 
-20 tokens
+25 tokens
 
 **Reasoning:**
 
@@ -73,7 +73,10 @@ all-MiniLM-L6-v2
 
 **Production tradeoff reflection:**
 
-If cost was not a constraint I would most likely use OpenAI since it would provide more accurate responses.
+If cost were not a constraint, I would most likely use a larger hosted embedding model such as OpenAi's embedding model. This is due to the fact that larger models will usually provide more accurate responses when asked complex questions.
+
+When choosing a production model, I would weigh things like accuracy, context length limits, multilingual support, and latency. While a larger model might perform better and support more languages it can cause more latency as well. This is why all-MiniLM-L6-v2 which runs locally on the computer, provides fast response times, is simplier and provides low latency compared to larger hosted models.
+
 
 ---
 
@@ -151,3 +154,7 @@ Using the pipeline outline in planning.md I want you to generate my embedding an
 **Milestone 5 — Generation and interface:**
 
 Claude: 
+
+Using the pipeline outline in planning.md, I want you to create the generation and interface code in generation.py. For this i want you to only have it use the context retrieved from the prompt and the text files, with source attribution from which chunk it used. For the output I want it to have answers and then cite the source next to it if any information was used from a certain chunk. Lastly for the interface make it a simple generation where you can chose which professor type in a question and press generate to generate the response. Make it visually appealing without doing too much.
+
+

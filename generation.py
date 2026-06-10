@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 
 from dotenv import load_dotenv
 
@@ -124,7 +125,12 @@ def generate(question: str, professor: str | None = None, top_k: int = DEFAULT_T
         temperature=TEMPERATURE,
     )
     answer = response.choices[0].message.content.strip()
-    return {"answer": answer, "sources": sources, "hits": hits}
+
+    # Only show sources the answer actually cited. If the model refused (no [n]
+    # citations), this leaves the list empty so no chunks are shown.
+    cited = {int(n) for n in re.findall(r"\[(\d+)\]", answer)}
+    used_sources = [s for s in sources if s["n"] in cited]
+    return {"answer": answer, "sources": used_sources, "hits": hits}
 
 
 def format_sources_md(sources: list[dict]) -> str:
